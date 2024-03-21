@@ -1,0 +1,2912 @@
+fileFormatVersion: 2
+guid: d401a9085f035ac4fa2cce2a4ed1a276
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FalseKnight_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 13287
+        width: 617
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b85d3f72f8afd54198d4b66e00479bf
+      internalID: 714079594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 13289
+        width: 614
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7acfaf9ecdf804b859e870264554d1
+      internalID: 1209542123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_2
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 13288
+        width: 618
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3786ecb09944045af1ea0c9e3605df
+      internalID: -1316838358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_3
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 13287
+        width: 617
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc355dbe7c4954499fd710aa1108cab
+      internalID: -1202743497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_4
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 13288
+        width: 614
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031a51bf56e19624996c5274744dd439
+      internalID: -1549043921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12875
+        width: 533
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd867ca12a0ebd4583f484362bc02a6
+      internalID: -1417952509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 12876
+        width: 544
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d3038b3b1988a45851bf6e715ed07e
+      internalID: 821329423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12470
+        width: 571
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b854dbfdf1ae049bf16cea46bb8659
+      internalID: -1822258079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 12473
+        width: 565
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6144fdfff775b4c4bbc9c21da5e2bf25
+      internalID: -933031804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11961
+        width: 620
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae37470619805d649be6985f3a10e342
+      internalID: -1714395211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_10
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 11958
+        width: 619
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ab0fb89ba693d438881d56667ea972
+      internalID: 767478501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_11
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 11960
+        width: 616
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d42a5133436d441b8b42ab08a4eed1
+      internalID: 79900586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_12
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 11965
+        width: 613
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa122a254057f4a8dc1d43391626dd
+      internalID: -2052315005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_13
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 11963
+        width: 617
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e19bacb1dd4d348ac268e7c8e81428
+      internalID: 199795342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11554
+        width: 603
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e0a699c8bc8ff44802dc1975d94574
+      internalID: -37922624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_15
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 11553
+        width: 605
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d6aaaa8c7a9ff44a7a22ea1fa47d71
+      internalID: 254926952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_16
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 11552
+        width: 602
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a491e7cea98b5cb45a0e0a17a2eebfaf
+      internalID: -435983469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11192
+        width: 603
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6bc3f969aa8d04f96e03858a16c70a
+      internalID: 2016480938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 11191
+        width: 601
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3f2d62b2b1c5440add5a77ba8d1a0d
+      internalID: -1269689679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_19
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 11195
+        width: 599
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c418c6dd47147649acf8ce32ed56d4a
+      internalID: 1693302893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_20
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 11192
+        width: 600
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ff00ca35264c143b3d3a9f11aeb7cc
+      internalID: 936227503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10785
+        width: 609
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619791db1991657419984037653f3dc7
+      internalID: 332190332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_22
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 10784
+        width: 605
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236a71b021fb3a84595746fc786780d1
+      internalID: 301125966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_23
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 10787
+        width: 602
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6cdb9785c5cc643bb2ed4f89cc25b0
+      internalID: -482797582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10365
+        width: 576
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee3a7d67feb9f43b8409a798db65d5
+      internalID: 217470285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_25
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 10365
+        width: 570
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe20e874506d0e24b8d056c4cf1b1ec0
+      internalID: 97835229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_26
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 10362
+        width: 580
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97223405c19a43742a1e53d6767077ad
+      internalID: -477128068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_27
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 10361
+        width: 572
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a573bca86454d874dae0f8b2536361c5
+      internalID: 1890298336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_28
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 10364
+        width: 574
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1161ed0e8ba1b94ebf746873f688f72
+      internalID: 202534338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9959
+        width: 577
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635b1055877013469d607dd0864d8b6
+      internalID: -32947122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9343
+        width: 678
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054fa4dfd6b6b1d4989cea28f7c3574a
+      internalID: -1741423249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_31
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 9343
+        width: 689
+        height: 583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2e3bd635415e7479a5c02d72aa8f01
+      internalID: -471998473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_32
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 9344
+        width: 678
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe58def157e34144fa65878e1f5eadae
+      internalID: -1943794484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8737
+        width: 628
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd92caf025beb418bc63e2e31d5af7
+      internalID: -923383686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_34
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 8739
+        width: 620
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b0df5834dd8ac4884c31519b647b81
+      internalID: -708968242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_35
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 8737
+        width: 652
+        height: 572
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c8e7694dac57e42ac80cf6bb4d1b94
+      internalID: 1871456941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_36
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 8741
+        width: 653
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87de75a4aa8d72d499e1e377e17b376a
+      internalID: -769434647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_37
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 8739
+        width: 651
+        height: 571
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e807c30cb323f2949918c08bd81282b0
+      internalID: -722227587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_38
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8293
+        width: 710
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1793d8e06f381b64b97b0bdaab0b073c
+      internalID: 1235262718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_39
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 8295
+        width: 692
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0799586ba9c33784f8d8de0f990fc1a1
+      internalID: -76083504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_40
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 8293
+        width: 702
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3fcb710e579b24d9f283e51aebcf6f
+      internalID: -837828927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_41
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 8289
+        width: 704
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7debe7ffd04fb141be2364bcb9483ef
+      internalID: -1032518879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7868
+        width: 703
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e12ab0fdd45b545a4e07ffa4dfe843
+      internalID: 1987096708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 7222
+        width: 828
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e199cbab6b6afb45bcb9b6263aeb0f0
+      internalID: -872550402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_44
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 7218
+        width: 836
+        height: 617
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98709e04d129df1479fbcfdaec0a6ae1
+      internalID: 1208302109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6613
+        width: 487
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83153d32f41fd104fb44d561a415d1bb
+      internalID: 1891988686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_46
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 6606
+        width: 479
+        height: 586
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dc4c647e6b0ba4da2a343b6202a957
+      internalID: -1860051320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_47
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6185
+        width: 610
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e73762e73750342ad0a0e46f638ed8
+      internalID: -1918270355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_48
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 6187
+        width: 606
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7773e720db1f7f44eb6fe6dd1493ac69
+      internalID: 1458034241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5657
+        width: 733
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7500524571e68147bd512209ff2259d
+      internalID: -689333947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_50
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 5648
+        width: 716
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039ce565d606d4c4d85700cd66a4ad74
+      internalID: 1966980994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_51
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 5644
+        width: 635
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cf537fc06577745b92f146a38b64b8
+      internalID: -490159845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_52
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 5650
+        width: 721
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa0f65a4eb418744a53200fb624a1c3
+      internalID: 1616807394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_53
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 5124
+        width: 718
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b13d844aa806c4794e394776755274
+      internalID: -1677183676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4633
+        width: 404
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58d88c0e46293d48bed16c8afba6eb3
+      internalID: 2134259767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_55
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 4637
+        width: 411
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05921894d22e5eb4daf61db59134c501
+      internalID: 1179099581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_56
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 4637
+        width: 408
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bbce8c906f0454a8d74e1a1efcfd8c
+      internalID: 620663687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_57
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 4639
+        width: 409
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20826219f701c245bd5ce1584fd9188
+      internalID: -184350263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_58
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4156
+        width: 372
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffde8ac0161092f40a7ca2b11271b67f
+      internalID: 554923747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_59
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 4156
+        width: 386
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b50ba73fe40b94f8fceedf4aae8d22
+      internalID: 2061651556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_60
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 4155
+        width: 394
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b936c68c3230941bb82272e0f30034
+      internalID: 1143582583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_61
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 4158
+        width: 390
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed60b4a44ca6d2444a9be1d7d83397be
+      internalID: -1747157077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_62
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3674
+        width: 380
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdd6c60b0a0bbc4d9fec8fa7d9803cb
+      internalID: -377210017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_63
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3191
+        width: 350
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3623fedce14bd9e4bb316ee6e63c78e4
+      internalID: -40346744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 3191
+        width: 347
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af883d27d55744a4db54eb0cacf41866
+      internalID: -79689652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_65
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3191
+        width: 348
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f966100dffe9114983167e0b1d09508
+      internalID: 1109184327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_66
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2991
+        width: 240
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c02e17b16d4c840b108bf19d8c3e6a
+      internalID: 1923723731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_67
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2993
+        width: 257
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db259af77697c5c4e9043e7ee161c00b
+      internalID: -1845306490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_68
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2992
+        width: 262
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb74edb3e239e1d498e5d396558d91ba
+      internalID: -2094858267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_69
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2993
+        width: 268
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca02efa3dcd72441a96e9ea9545a0f1
+      internalID: -1414671336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2848
+        width: 114
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577c07635d4899e4cac8c5b2ea1f77e0
+      internalID: 1180206902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_71
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2850
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2781b1c5fc1da4ea40020842e1558b
+      internalID: -2011372030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_72
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2849
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83e02ef76ca8af4fa9657351d202b3d
+      internalID: 95808769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_73
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2851
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159acad35b483fe43aabb30cf4babad1
+      internalID: 1385307232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2849
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f856fa8a8fe3249b67e3ea80310420
+      internalID: 827179675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2690
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e30f2462b0585e49a09d29386c9a137
+      internalID: 1093121139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2691
+        width: 119
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34c51459e8cf0b45a8c52c302ce2edf
+      internalID: -997582062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_77
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2688
+        width: 118
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41048c6256897d048b6f00519b73facb
+      internalID: 546165480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_78
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2080
+        width: 634
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d08dfde719831d4386f97bcbdca5c47
+      internalID: 558847241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_79
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2083
+        width: 613
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad42b6df0e3da840b793842a33cc353
+      internalID: -653111265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_80
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2084
+        width: 643
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674efb2e8771f1744b1c0b6dd928c1ee
+      internalID: 761524399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_81
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1591
+        width: 405
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f54dab6f50724eb9306176569c2e2
+      internalID: -1337904748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_82
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1589
+        width: 406
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffa8f2e8b0686848a4429515ea7e190
+      internalID: -577784604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_83
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1593
+        width: 408
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c96d49f13bc744f91ab5e1770d268c
+      internalID: 687354661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_84
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1594
+        width: 394
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aaa54fab13a9646ab1dacd2c85a27b
+      internalID: 841374766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_85
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1592
+        width: 411
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875b29441c3c7be40a4719c104f1e471
+      internalID: -827528671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_86
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1310
+        width: 340
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2d996143c6fa94d996deef3e737a73
+      internalID: 1331031461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_87
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1066
+        width: 260
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428e136b9bd395447b6b15e583a85a72
+      internalID: -774120034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_88
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1059
+        width: 253
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15afdc9f417c82240b80216bb64ec7b9
+      internalID: 551113194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_89
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1060
+        width: 262
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec4c7a69bfa8c74cb157b06f4d25fa5
+      internalID: -771962791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_90
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1060
+        width: 263
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c116d9fb0629849be243fd4235b5ed
+      internalID: -1240886572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_91
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1061
+        width: 262
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5981ea4bcdc95cf468226e697148185a
+      internalID: 1197063732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_92
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1057
+        width: 263
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0b22b6fedf06e45a26ac039b3276b9
+      internalID: 1669061140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_93
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1054
+        width: 264
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6c7defbc4fed84a915c29e6afde99e
+      internalID: 1676325822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_94
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1055
+        width: 261
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c1bf78fe627ec4b8d63c420499242f
+      internalID: 1119472871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_95
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 1054
+        width: 263
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebd4ecdbb3971e46b7823112e5a97b5
+      internalID: 790334506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_96
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 1055
+        width: 263
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d170ea118238642ac38258d1a079e1
+      internalID: 1782712426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_97
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 835
+        width: 262
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3f10de2274e04da594d4fa3a55bd5
+      internalID: -646833484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_98
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 838
+        width: 257
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f51a574f97c57f448ee50f2fc35154d
+      internalID: 1994540570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_99
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 835
+        width: 269
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f0f257a071ebd4d8f79c23f038c705
+      internalID: 1650306461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_100
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 835
+        width: 267
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cbe18934feccc4cbab68066aa7c7ca
+      internalID: -530542156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_101
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 554
+        width: 167
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87570c22183bf4bac3891dcfb04d21
+      internalID: 1910515492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_102
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 554
+        width: 169
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ac03ce809f1a4e9f5242642e1e323
+      internalID: 1565966478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_103
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 556
+        width: 169
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb134fc201ab2a4b9d9466bf5a656a1
+      internalID: 829581102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_104
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 553
+        width: 165
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4450c5a57f6583840823166b303c95c1
+      internalID: 1386193144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_105
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 554
+        width: 167
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c479c61faa8d8e479ef8633197c4ed4
+      internalID: 1729147491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_106
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 384
+        width: 155
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c599fceae080f3f47ae9af17b4e9b371
+      internalID: -865355470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_107
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 385
+        width: 157
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caa552593cb85a439c6986df9e4e0df
+      internalID: -1403897776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_108
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 386
+        width: 153
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0ab3862f72747419d30c95730577ce
+      internalID: -1168407068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_109
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 386
+        width: 152
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fe0d4db5b20964ea76f49e8b2d5372
+      internalID: 1862401821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_110
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 387
+        width: 156
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d2e73c56b14294a8aa3f90137c2458
+      internalID: -1629154400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_111
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 385
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a7741670e7c541ab18253d3788ee1
+      internalID: -1635816271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_112
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 386
+        width: 152
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93557e3f9fac1e49b303ecd977322ae
+      internalID: -1490737454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_113
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 188
+        width: 164
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014a10891f850f94daa6b8555249fc0e
+      internalID: -736736347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_114
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 190
+        width: 164
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b1f0df3167ab4487928d1e78be8ca
+      internalID: 1472833205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_115
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 193
+        width: 163
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9169cfa2948a60e45a9e26ad5509dffc
+      internalID: -1689699664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_116
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 190
+        width: 163
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfbe43b85bec9d448297be67d75137c
+      internalID: 1330228558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_117
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 185
+        width: 162
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad523a46454e3cd4aaea04e7cfcc6d96
+      internalID: 1182371880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_118
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 186
+        width: 158
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8700b5b0631f85243a46dc76a39b908a
+      internalID: 920353995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_119
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 185
+        width: 160
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cbdf16a68daf149a84a21c59fd52b2
+      internalID: 1278159927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_120
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 185
+        width: 159
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d223a063a733c1549b99240213c79730
+      internalID: 1426006887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_121
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 185
+        width: 159
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5ddf6ec755b4d4bb4a2a4a74d97dfa
+      internalID: -1956074110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_122
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 156
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e652bc6758ff8f14b9e62ed32d14ed31
+      internalID: 1176195374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_123
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3446d6071260e384fa12316b94a971f1
+      internalID: -1660725020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_124
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 4
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119d758cfd2a084f892779f0bc41ed5
+      internalID: -1875584331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FalseKnight_125
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 5
+        width: 153
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a073d6f278a08424db7c2da5793d3b6e
+      internalID: -1403485221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FalseKnight_0: 714079594
+      FalseKnight_1: 1209542123
+      FalseKnight_10: 767478501
+      FalseKnight_100: -530542156
+      FalseKnight_101: 1910515492
+      FalseKnight_102: 1565966478
+      FalseKnight_103: 829581102
+      FalseKnight_104: 1386193144
+      FalseKnight_105: 1729147491
+      FalseKnight_106: -865355470
+      FalseKnight_107: -1403897776
+      FalseKnight_108: -1168407068
+      FalseKnight_109: 1862401821
+      FalseKnight_11: 79900586
+      FalseKnight_110: -1629154400
+      FalseKnight_111: -1635816271
+      FalseKnight_112: -1490737454
+      FalseKnight_113: -736736347
+      FalseKnight_114: 1472833205
+      FalseKnight_115: -1689699664
+      FalseKnight_116: 1330228558
+      FalseKnight_117: 1182371880
+      FalseKnight_118: 920353995
+      FalseKnight_119: 1278159927
+      FalseKnight_12: -2052315005
+      FalseKnight_120: 1426006887
+      FalseKnight_121: -1956074110
+      FalseKnight_122: 1176195374
+      FalseKnight_123: -1660725020
+      FalseKnight_124: -1875584331
+      FalseKnight_125: -1403485221
+      FalseKnight_13: 199795342
+      FalseKnight_14: -37922624
+      FalseKnight_15: 254926952
+      FalseKnight_16: -435983469
+      FalseKnight_17: 2016480938
+      FalseKnight_18: -1269689679
+      FalseKnight_19: 1693302893
+      FalseKnight_2: -1316838358
+      FalseKnight_20: 936227503
+      FalseKnight_21: 332190332
+      FalseKnight_22: 301125966
+      FalseKnight_23: -482797582
+      FalseKnight_24: 217470285
+      FalseKnight_25: 97835229
+      FalseKnight_26: -477128068
+      FalseKnight_27: 1890298336
+      FalseKnight_28: 202534338
+      FalseKnight_29: -32947122
+      FalseKnight_3: -1202743497
+      FalseKnight_30: -1741423249
+      FalseKnight_31: -471998473
+      FalseKnight_32: -1943794484
+      FalseKnight_33: -923383686
+      FalseKnight_34: -708968242
+      FalseKnight_35: 1871456941
+      FalseKnight_36: -769434647
+      FalseKnight_37: -722227587
+      FalseKnight_38: 1235262718
+      FalseKnight_39: -76083504
+      FalseKnight_4: -1549043921
+      FalseKnight_40: -837828927
+      FalseKnight_41: -1032518879
+      FalseKnight_42: 1987096708
+      FalseKnight_43: -872550402
+      FalseKnight_44: 1208302109
+      FalseKnight_45: 1891988686
+      FalseKnight_46: -1860051320
+      FalseKnight_47: -1918270355
+      FalseKnight_48: 1458034241
+      FalseKnight_49: -689333947
+      FalseKnight_5: -1417952509
+      FalseKnight_50: 1966980994
+      FalseKnight_51: -490159845
+      FalseKnight_52: 1616807394
+      FalseKnight_53: -1677183676
+      FalseKnight_54: 2134259767
+      FalseKnight_55: 1179099581
+      FalseKnight_56: 620663687
+      FalseKnight_57: -184350263
+      FalseKnight_58: 554923747
+      FalseKnight_59: 2061651556
+      FalseKnight_6: 821329423
+      FalseKnight_60: 1143582583
+      FalseKnight_61: -1747157077
+      FalseKnight_62: -377210017
+      FalseKnight_63: -40346744
+      FalseKnight_64: -79689652
+      FalseKnight_65: 1109184327
+      FalseKnight_66: 1923723731
+      FalseKnight_67: -1845306490
+      FalseKnight_68: -2094858267
+      FalseKnight_69: -1414671336
+      FalseKnight_7: -1822258079
+      FalseKnight_70: 1180206902
+      FalseKnight_71: -2011372030
+      FalseKnight_72: 95808769
+      FalseKnight_73: 1385307232
+      FalseKnight_74: 827179675
+      FalseKnight_75: 1093121139
+      FalseKnight_76: -997582062
+      FalseKnight_77: 546165480
+      FalseKnight_78: 558847241
+      FalseKnight_79: -653111265
+      FalseKnight_8: -933031804
+      FalseKnight_80: 761524399
+      FalseKnight_81: -1337904748
+      FalseKnight_82: -577784604
+      FalseKnight_83: 687354661
+      FalseKnight_84: 841374766
+      FalseKnight_85: -827528671
+      FalseKnight_86: 1331031461
+      FalseKnight_87: -774120034
+      FalseKnight_88: 551113194
+      FalseKnight_89: -771962791
+      FalseKnight_9: -1714395211
+      FalseKnight_90: -1240886572
+      FalseKnight_91: 1197063732
+      FalseKnight_92: 1669061140
+      FalseKnight_93: 1676325822
+      FalseKnight_94: 1119472871
+      FalseKnight_95: 790334506
+      FalseKnight_96: 1782712426
+      FalseKnight_97: -646833484
+      FalseKnight_98: 1994540570
+      FalseKnight_99: 1650306461
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
