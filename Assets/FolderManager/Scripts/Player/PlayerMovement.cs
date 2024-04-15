@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     
     public float walkSpeed = 5f;
-    public float runSpeed = 5f;
+    public float runSpeed = 8f;
 
     Vector2 moveInput;
 
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         private set 
         {
             _isMoving = value;
-            animator.SetBool("isMoving", value);
+            animator.SetBool(AnimationStrings.isMoving, value);
         } 
     }
 
@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
         private set 
         { 
             _isRunning = value;
-            animator.SetBool("isRunning", value);
+            animator.SetBool(AnimationStrings.isRunning, value);
         }
     }
 
