@@ -938,6 +938,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8340914172240429114, guid: 7b567cbc27589dc4b8d861b03178242f, type: 3}
+      propertyPath: runSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340914172240429114, guid: 7b567cbc27589dc4b8d861b03178242f, type: 3}
+      propertyPath: _isRunning
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340914172240429114, guid: 7b567cbc27589dc4b8d861b03178242f, type: 3}
+      propertyPath: _isFacingRight
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
