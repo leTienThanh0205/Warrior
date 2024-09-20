@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Falling
+  m_Name: Player_WallSlide
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 38003e3dea89c8c44b6d054f84990fc1, type: 3}
+      value: {fileID: 21300000, guid: 557ded65e0eacb04d913ea865281730d, type: 3}
     - time: 0.1
-      value: {fileID: 21300000, guid: 6ed072e7fcb1a5e4eb2921b81f447f60, type: 3}
+      value: {fileID: 21300000, guid: c57a23f0aacbbf340b30526b28797133, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 38003e3dea89c8c44b6d054f84990fc1, type: 3}
-    - {fileID: 21300000, guid: 6ed072e7fcb1a5e4eb2921b81f447f60, type: 3}
+    - {fileID: 21300000, guid: 557ded65e0eacb04d913ea865281730d, type: 3}
+    - {fileID: 21300000, guid: c57a23f0aacbbf340b30526b28797133, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

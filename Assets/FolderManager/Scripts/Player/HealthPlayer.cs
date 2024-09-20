@@ -1,38 +1,24 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
-public class PlayerMovement : MonoBehaviour
+public class HealthPlayer : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    public float walkSpeed = 5f;
-    public float runSpeed = 8f;
-   // public float jumpForce = 10f;
-    TouchingDirection touchingDirection;
-    Vector2 moveInput;
-    Animator anim;
-   
-    /// ////////////////////WallJump
-    
-    [Header("Movement")]
-   // public float speed = 5;
-    public float jumpForce = 12f;
-    public float horizontalJumpForce = 6;
-    public float horizontal;
-    public bool jumpPressed;
-    public int direction = 1;
-    public bool canMove = true;
-
     [Header("Ground Check")]
     public Transform groundCheck;
     public float footOffest = 0.4f;
     public float groundDistance = 0.1f;
     public LayerMask groundLayer;
     public bool onGround;
+
+    [Header("Movement")]
+    public float speed = 5;
+    public float jumpForce = 12;
+    public float horizontalJumpForce = 6;
+    public float horizontal;
+    public bool jumpPressed;
+    public int direction = 1;
+    public bool canMove = true;
 
     [Header("Wall")]
     public bool onWall;
@@ -45,162 +31,54 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask wallLayer;
 
     private bool clearInputs;
-    private void Awake()
+
+    private Rigidbody2D rb;
+    private Animator anim;
+
+    // Start is called before the first frame update
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        touchingDirection = GetComponent<TouchingDirection>();
     }
 
-    public float CurrentSpeed
-    {
-        get {
-            if (canMove)
-            {
-                if (IsRunning)
-                {
-                    return runSpeed;
-                }
-                else
-                {
-                    return walkSpeed;
-
-                }
-            }
-            else
-            {
-                return 0;
-            }
-        }
-    }
-
-    [SerializeField]
-    private bool _isMoving = false;
-
-    public bool IsMoving { get 
-        {
-            return _isMoving;
-        } private set {
-            _isMoving = value;
-            anim.SetBool(AnimationStrings.isMoving, value);
-        } 
-    }
-    [SerializeField]
-    private bool _isRunning = false;
-
-    public bool IsRunning
-    {
-        get
-        {
-            return _isRunning;
-        }
-        private set
-        {
-            _isRunning = value;
-            anim.SetBool(AnimationStrings.isRunning, value);
-        }
-    }
-    [SerializeField]
-    private bool _isFacingRight = true;
-
-    public bool IsFacingRight { get 
-        {
-            return _isFacingRight;
-        } private set {
-            if(_isFacingRight != value)
-            {
-                transform.localScale *= new Vector2(-1, 1);
-            }
-            _isFacingRight= value;
-        }
-
-    }
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         CheckInputs();
         PhysicsCheck();
+
+
+
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2( moveInput.x * CurrentSpeed, rb.velocity.y);
-        anim.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
-
         GroundMovement();
         AirMovement();
         clearInputs = true;
     }
 
-    /*private void SetFacingDirection(Vector2 moveInput)
-    {
-        if (moveInput.x > 0 && !IsFacingRight)
-        {
-            IsFacingRight = true;
-        }
-        else
-        if (moveInput.x < 0 && IsFacingRight)
-        {
-            IsFacingRight = false;
-        }
-    }
-    public void OnMove(InputAction.CallbackContext context)
-    {
-        moveInput = context.ReadValue<Vector2>();
-        if (context.started)
-        {
-            IsMoving = moveInput != Vector2.zero;
-            SetFacingDirection(moveInput);
-        }
-        else if (context.canceled)
-        {
-            IsMoving = false;
-        }
-
-    }*/
-    public void OnJump(InputAction.CallbackContext context)
-    {
-        if(context.started && touchingDirection.IsGrounded)
-        {
-            anim.SetTrigger(AnimationStrings.jumpTrigger);
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        }
-    }
-
-    public void OnRunning(InputAction.CallbackContext context)
-    {
-        if (context.started)
-        {
-            IsRunning = true;
-
-        }
-        else if(context.canceled)
-        {
-            IsRunning = false;
-        }
-
-    }
-
-    ////WallJump
     void GroundMovement()
     {
         if (!canMove)
             return;
 
-        float x = horizontal * CurrentSpeed;
+        float x = horizontal * speed;
 
         rb.velocity = new Vector2(x, rb.velocity.y);
 
         if (x * direction < 0f)
             Flip();
 
-        anim.SetBool(AnimationStrings.isMoving, horizontal != 0);
+        anim.SetBool("isMoving", horizontal!=0);
 
     }
+
     void AirMovement()
     {
         if (jumpPressed && onGround)
         {
-           // Debug.Log("Nhay tuongggg");
 
             jumpPressed = false;
 
@@ -211,7 +89,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (jumpPressed && onWall && !onGround)
         {
-            Debug.Log("Nhay tuongggg2");
             canMove = false;
             jumpFinish = Time.time + wallJumpDuration;
             jumpPressed = false;
@@ -227,6 +104,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
+
     void Flip()
     {
         direction *= -1;
@@ -234,6 +112,7 @@ public class PlayerMovement : MonoBehaviour
         scale.x *= -1;
         transform.localScale = scale;
     }
+
     void CheckInputs()
     {
         if (clearInputs)
@@ -265,6 +144,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
     void PhysicsCheck()
     {
         onGround = false;
@@ -323,8 +203,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Gizmos.color = Color.red;
 
-        Gizmos.DrawWireSphere(transform.position + new Vector3(wallOffset.x, 0), wallRadius);
+        Gizmos.DrawWireSphere(transform.position + new Vector3(wallOffset.x,0), wallRadius);
         Gizmos.DrawWireSphere(transform.position + new Vector3(-wallOffset.x, 0), wallRadius);
     }
-
 }
