@@ -8,18 +8,10 @@ using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    public float walkSpeed = 5f;
-    public float runSpeed = 8f;
-   // public float jumpForce = 10f;
-    TouchingDirection touchingDirection;
-    Vector2 moveInput;
-    Animator anim;
-   
-    /// ////////////////////WallJump
     
     [Header("Movement")]
-   // public float speed = 5;
+    public float walkSpeed = 5f;
+    public float runSpeed = 8f;
     public float jumpForce = 12f;
     public float horizontalJumpForce = 6;
     public float horizontal;
@@ -45,12 +37,10 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask wallLayer;
 
     private bool clearInputs;
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        touchingDirection = GetComponent<TouchingDirection>();
-    }
+    private Rigidbody2D rb;
+    TouchingDirection touchingDirection;
+    Vector2 moveInput;
+    Animator anim;
 
     public float CurrentSpeed
     {
@@ -115,6 +105,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        touchingDirection = GetComponent<TouchingDirection>();
+    }
     private void Update()
     {
         CheckInputs();
@@ -129,55 +125,6 @@ public class PlayerMovement : MonoBehaviour
         GroundMovement();
         AirMovement();
         clearInputs = true;
-    }
-
-    /*private void SetFacingDirection(Vector2 moveInput)
-    {
-        if (moveInput.x > 0 && !IsFacingRight)
-        {
-            IsFacingRight = true;
-        }
-        else
-        if (moveInput.x < 0 && IsFacingRight)
-        {
-            IsFacingRight = false;
-        }
-    }
-    public void OnMove(InputAction.CallbackContext context)
-    {
-        moveInput = context.ReadValue<Vector2>();
-        if (context.started)
-        {
-            IsMoving = moveInput != Vector2.zero;
-            SetFacingDirection(moveInput);
-        }
-        else if (context.canceled)
-        {
-            IsMoving = false;
-        }
-
-    }*/
-    public void OnJump(InputAction.CallbackContext context)
-    {
-        if(context.started && touchingDirection.IsGrounded)
-        {
-            anim.SetTrigger(AnimationStrings.jumpTrigger);
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        }
-    }
-
-    public void OnRunning(InputAction.CallbackContext context)
-    {
-        if (context.started)
-        {
-            IsRunning = true;
-
-        }
-        else if(context.canceled)
-        {
-            IsRunning = false;
-        }
-
     }
 
     ////WallJump
@@ -200,7 +147,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (jumpPressed && onGround)
         {
-           // Debug.Log("Nhay tuongggg");
+            // Debug.Log("Nhay tuongggg");
 
             jumpPressed = false;
 
@@ -222,18 +169,8 @@ public class PlayerMovement : MonoBehaviour
 
             rb.AddForce(new Vector2(horizontalJumpForce * direction, jumpForce), ForceMode2D.Impulse);
         }
-
-
-
-
     }
-    void Flip()
-    {
-        direction *= -1;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
-    }
+  
     void CheckInputs()
     {
         if (clearInputs)
@@ -264,6 +201,13 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+    }
+    void Flip()
+    {
+        direction *= -1;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
     void PhysicsCheck()
     {
@@ -299,15 +243,12 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-
     public RaycastHit2D Raycast(Vector2 origin, Vector2 rayDirection, float length, LayerMask mask, bool drawRay = true)
     {
 
         //Send out the desired raycasr and record the result
         RaycastHit2D hit = Physics2D.Raycast(origin, rayDirection, length, mask);
-
         //If we want to show debug raycasts in the scene...
-
         if (drawRay)
         {
             Color color = hit ? Color.red : Color.green;
@@ -327,4 +268,61 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position + new Vector3(-wallOffset.x, 0), wallRadius);
     }
 
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if(context.started && touchingDirection.IsGrounded)
+        {
+            anim.SetTrigger(AnimationStrings.jumpTrigger);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            Debug.Log("attackk");
+            anim.SetTrigger(AnimationStrings.attackTrigger);
+        }
+    }
+    public void OnRunning(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            IsRunning = true;
+
+        }
+        else if(context.canceled)
+        {
+            IsRunning = false;
+        }
+
+    }
+    
+
 }
+/*private void SetFacingDirection(Vector2 moveInput)
+{
+    if (moveInput.x > 0 && !IsFacingRight)
+    {
+        IsFacingRight = true;
+    }
+    else
+    if (moveInput.x < 0 && IsFacingRight)
+    {
+        IsFacingRight = false;
+    }
+}
+public void OnMove(InputAction.CallbackContext context)
+{
+    moveInput = context.ReadValue<Vector2>();
+    if (context.started)
+    {
+        IsMoving = moveInput != Vector2.zero;
+        SetFacingDirection(moveInput);
+    }
+    else if (context.canceled)
+    {
+        IsMoving = false;
+    }
+
+}*/
