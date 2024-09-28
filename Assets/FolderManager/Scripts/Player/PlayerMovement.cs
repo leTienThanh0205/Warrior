@@ -280,8 +280,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.started)
         {
-            Debug.Log("attackk");
             anim.SetTrigger(AnimationStrings.attackTrigger);
+        }
+    }
+    public void OnRangedAttack(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            anim.SetTrigger(AnimationStrings.rangedAttackTrigger);
         }
     }
     public void OnRunning(InputAction.CallbackContext context)
