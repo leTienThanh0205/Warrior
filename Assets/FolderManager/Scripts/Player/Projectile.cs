@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
     public Vector2 moveSpeed = new Vector2(8f, 0);
     Rigidbody2D rb;
     Animator anim;
+    public int damage;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,8 +25,10 @@ public class Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        FloatingHealthbar enemyHealthbar = collision.GetComponent<FloatingHealthbar>();
         if (collision.CompareTag("enemy"))
         {
+            enemyHealthbar.TakeDamage(damage);
             anim.SetTrigger(AnimationStrings.arrowExploded);
             rb.constraints = RigidbodyConstraints2D.FreezePositionX;
             rb.constraints = RigidbodyConstraints2D.FreezePositionY;

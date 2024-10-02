@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeleeEnemy : MonoBehaviour
+public class RangedEnemy : MonoBehaviour
 {
     [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
     [SerializeField] private int damage;
+
+    [Header("Ranged Attack")]
+    [SerializeField] private Transform firepoint;
+    [SerializeField] private GameObject[] fireballs;
 
     [Header("Collider Parameters")]
     [SerializeField] private float colliderDistance;
@@ -36,10 +40,10 @@ public class MeleeEnemy : MonoBehaviour
             if (cooldownTimer >= attackCooldown)
             {
                 cooldownTimer = 0;
-                anim.SetTrigger(AnimationStrings.meleeAttackTrigger);
+                anim.SetTrigger(AnimationStrings.rangedAttackTrigger);
             }
         }
-        if(enemyPatrol != null)
+        if (enemyPatrol != null)
             enemyPatrol.enabled = !PlayerInSight();
 
     }
@@ -51,7 +55,7 @@ public class MeleeEnemy : MonoBehaviour
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
 
-       // if (hit.collider != null)
+        // if (hit.collider != null)
 
         return hit.collider != null;
     }
@@ -62,11 +66,18 @@ public class MeleeEnemy : MonoBehaviour
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
     }
 
-    private void DamagePlayer()
+    private void RangedAttack()
     {
-        if (PlayerInSight())
+        cooldownTimer = 0;
+        //fireballs[]
+    }
+    private int FindFireball()
+    {
+        for (int i = 0; i < fireballs.Length; i++)
         {
-
+            if (!fireballs[i].activeInHierarchy)
+                return i;
         }
+        return 0;
     }
 }
