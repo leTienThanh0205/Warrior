@@ -20,4 +20,5 @@ internal class AnimationStrings
     internal static string hurtTrigger = "hurt";
     internal static string movingEnemy = "moving";
     internal static string dieTrigger = "die";
+    internal static string fireExploded = "exploded";
 }
