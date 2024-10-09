@@ -18,7 +18,9 @@ internal class AnimationStrings
     internal static string arrowExploded = "exploded";
     internal static string meleeAttackTrigger = "meleeAttack";
     internal static string hurtTrigger = "hurt";
+    internal static string teleportTrigger = "teleport";
     internal static string movingEnemy = "moving";
     internal static string dieTrigger = "die";
     internal static string fireExploded = "exploded";
+    internal static string shootTeleportTrigger = "shoot"; 
 }

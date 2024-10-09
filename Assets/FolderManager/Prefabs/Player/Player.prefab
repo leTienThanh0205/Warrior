@@ -778,6 +778,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4be8efb1-3ada-4fe8-a04d-f66da4c685f0
     m_ActionName: Player/Teleport[/Keyboard/t]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3508f28c-7f10-4164-ac0c-134d2da1ee77
+    m_ActionName: Player/Dash[/Keyboard/c]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -887,6 +891,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 4126685262196649296, guid: 50783663199d4d448a0085d6d2eb60ec, type: 3}
   firePoint: {fileID: 2172784871261873606}
   projectileSpeed: {x: 10, y: 0}
+  startTimeBtwSpawns: 0
+  echo: {fileID: 4636572439522959925, guid: 97bcaa11d8742504badd57b30b7ed5ae, type: 3}
 --- !u!114 &794899255093494364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1110,7 +1116,7 @@ Transform:
   m_GameObject: {fileID: 8067931220243540806}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.25, y: 0, z: 0}
+  m_LocalPosition: {x: 1.158, y: -0.131, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
