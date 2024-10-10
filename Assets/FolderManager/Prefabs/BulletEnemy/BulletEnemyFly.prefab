@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4514966155541086170}
   - component: {fileID: 4172066662552995540}
   - component: {fileID: 1541123938197442647}
+  - component: {fileID: 323477357996886242}
   m_Layer: 0
   m_Name: BulletEnemyFly
   m_TagString: Untagged
@@ -162,3 +163,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+--- !u!114 &323477357996886242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295534819534578399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4351a00195de3a241884698c8821f140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10

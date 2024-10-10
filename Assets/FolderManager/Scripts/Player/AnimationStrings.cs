@@ -22,5 +22,6 @@ internal class AnimationStrings
     internal static string movingEnemy = "moving";
     internal static string dieTrigger = "die";
     internal static string fireExploded = "exploded";
-    internal static string shootTeleportTrigger = "shoot"; 
+    internal static string shootTeleportTrigger = "shoot";
+    internal static string isAlive = "isAlive";
 }
