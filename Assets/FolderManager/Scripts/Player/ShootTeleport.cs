@@ -48,7 +48,7 @@ public class ShootTeleport : MonoBehaviour
                 origScale.y,
                 origScale.z
                 );
-            Destroy(currentEffect, 0.5f);
+            Destroy(currentEffect, 0.75f);
             transform.position = currentProjectile.transform.position;
             Destroy(currentProjectile);  // Xóa projectile sau khi dịch chuyển
         }
