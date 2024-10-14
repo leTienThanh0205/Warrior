@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -20,6 +20,13 @@ public class PlayerMovement : MonoBehaviour
     public int direction = 1;
     public bool canMove = true;
     private bool doubleJump;
+
+    [Header("Dash")]
+    public float dashDistance = 5f;    // Khoảng cách tốc biến
+    public float dashDuration = 0.2f;   // Thời gian tốc biến
+    public KeyCode dashKey = KeyCode.C; // Nút để thực hiện tốc biến
+    [SerializeField] private TrailRenderer tr;
+    private bool isDashing = false;     // Kiểm tra trạng thái tốc biến
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -115,13 +122,20 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
+        ///dash
+        if (Input.GetKeyDown(dashKey) && !isDashing)
+        {
+            StartCoroutine(Dash());
+        }
         CheckInputs();
         PhysicsCheck();
+        
     }
 
     private void FixedUpdate()
     {
         rb.velocity = new Vector2( moveInput.x * CurrentSpeed, rb.velocity.y);
+        
         anim.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
 
         GroundMovement();
@@ -167,7 +181,29 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(new Vector2(horizontalJumpForce * direction, jumpForce), ForceMode2D.Impulse);
         }
     }
-  
+
+    //Dash
+    private IEnumerator Dash()
+    {
+        isDashing = true; // Đánh dấu trạng thái tốc biến
+        Vector3 startPosition = transform.position; // Vị trí bắt đầu
+        Vector3 targetPosition = startPosition + new Vector3(dashDistance * Mathf.Sign(transform.localScale.x), 0, 0); // Vị trí mục tiêu
+
+        float elapsedTime = 0f;
+        tr.emitting = true;
+        // Di chuyển đến vị trí mục tiêu trong thời gian tốc biến
+        while (elapsedTime < dashDuration)
+        {
+            transform.position = Vector3.Lerp(startPosition, targetPosition, (elapsedTime / dashDuration));
+            elapsedTime += Time.deltaTime; // Cập nhật thời gian đã trôi qua
+            yield return null; // Chờ đợi frame tiếp theo
+        }
+
+        transform.position = targetPosition; // Đặt vị trí cuối cùng
+        isDashing = false; // Kết thúc trạng thái tốc biến
+        tr.emitting = false;
+    }
+
     void CheckInputs()
     {
         if (clearInputs)
@@ -222,7 +258,7 @@ public class PlayerMovement : MonoBehaviour
         bool rightWall = Physics2D.OverlapCircle(transform.position + new Vector3(wallOffset.x, 0), wallRadius, wallLayer);
         bool leftWall = Physics2D.OverlapCircle(transform.position + new Vector3(-wallOffset.x, 0), wallRadius, wallLayer);
 
-        if (rightWall || leftWall)
+        if (rightWall || leftWall )
         {
             onWall = true;
         }

@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         FloatingHealthbar enemyHealthbar = collision.GetComponent<FloatingHealthbar>();
-        if (collision.CompareTag("enemy"))
+        if (collision.CompareTag("Enemy"))
         {
             enemyHealthbar.TakeDamage(damage);
             anim.SetTrigger(AnimationStrings.arrowExploded);
