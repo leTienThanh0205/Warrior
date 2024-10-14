@@ -13,11 +13,13 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed = 5f;
     public float runSpeed = 8f;
     public float jumpForce = 12f;
+    public float doubleJumpForce = 8f;
     public float horizontalJumpForce = 6;
     public float horizontal;
     public bool jumpPressed;
     public int direction = 1;
     public bool canMove = true;
+    private bool doubleJump;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -147,18 +149,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (jumpPressed && onGround)
         {
-            // Debug.Log("Nhay tuongggg");
-
             jumpPressed = false;
-
             rb.velocity = Vector2.zero;
-
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
 
         }
         else if (jumpPressed && onWall && !onGround)
         {
-            Debug.Log("Nhay tuongggg2");
             canMove = false;
             jumpFinish = Time.time + wallJumpDuration;
             jumpPressed = false;
@@ -270,10 +267,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        if(context.started && touchingDirection.IsGrounded)
+        if(context.started && touchingDirection.IsGrounded && doubleJump == false)
         {
             anim.SetTrigger(AnimationStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            doubleJump = true;
+        }else if(context.started && doubleJump== true && !touchingDirection.IsGrounded)
+        {
+            anim.SetTrigger(AnimationStrings.doubleJumpTrigger);
+            rb.velocity = new Vector2(rb.velocity.x, doubleJumpForce);
+            doubleJump = false;
         }
     }
     public void OnAttack(InputAction.CallbackContext context)
