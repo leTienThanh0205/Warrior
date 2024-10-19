@@ -8,7 +8,7 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("FireBall hit");
+            
         }
     }
 }

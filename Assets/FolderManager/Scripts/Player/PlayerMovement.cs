@@ -99,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool(AnimationStrings.isRunning, value);
         }
     }
-    [SerializeField]
+    /*[SerializeField]
     private bool _isFacingRight = true;
 
     public bool IsFacingRight { get 
@@ -113,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
             _isFacingRight= value;
         }
 
-    }
+    }*/
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -122,11 +122,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        ///dash
-        if (Input.GetKeyDown(dashKey) && !isDashing)
-        {
-            StartCoroutine(Dash());
-        }
         CheckInputs();
         PhysicsCheck();
         
@@ -328,6 +323,16 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetTrigger(AnimationStrings.rangedAttackTrigger);
         }
+    }
+    public void OnDash(InputAction.CallbackContext context)
+    {
+        if (context.started && !isDashing)
+        {
+            anim.SetTrigger(AnimationStrings.dashTrigger);
+
+            StartCoroutine(Dash());
+        }
+        
     }
     public void OnRunning(InputAction.CallbackContext context)
     {
