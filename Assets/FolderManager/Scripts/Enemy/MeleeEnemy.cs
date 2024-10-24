@@ -20,6 +20,7 @@ public class MeleeEnemy : MonoBehaviour
     //References
     private Animator anim;
     private EnemyPatrol enemyPatrol;
+    private HealthPlayer healthPlayer;
 
     private void Awake()
     {
@@ -51,7 +52,10 @@ public class MeleeEnemy : MonoBehaviour
             new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
 
-       // if (hit.collider != null)
+        if (hit.collider != null)
+        {
+            healthPlayer = hit.transform.GetComponent<HealthPlayer>();
+        }
 
         return hit.collider != null;
     }
@@ -66,7 +70,7 @@ public class MeleeEnemy : MonoBehaviour
     {
         if (PlayerInSight())
         {
-
+            healthPlayer.TakeDamage(damage);
         }
     }
 }
