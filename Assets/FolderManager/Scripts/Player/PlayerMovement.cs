@@ -45,6 +45,9 @@ public class PlayerMovement : MonoBehaviour
     public float jumpFinish;
     public LayerMask wallLayer;
 
+    [Header("ParticleSystem")]
+    public ParticleSystem dustJump;
+    private bool walFalling;
     private bool clearInputs;
     private Rigidbody2D rb;
     TouchingDirection touchingDirection;
@@ -175,6 +178,15 @@ public class PlayerMovement : MonoBehaviour
 
             rb.AddForce(new Vector2(horizontalJumpForce * direction, jumpForce), ForceMode2D.Impulse);
         }
+        if(touchingDirection.IsGrounded && walFalling)
+        {
+            dustJump.Play();
+            walFalling = false;
+        }
+        if(!touchingDirection.IsGrounded && rb.velocity.y < 0)
+        {
+            walFalling = true;
+        }
     }
 
     //Dash
@@ -266,8 +278,10 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        anim.SetBool("isGrounded", onGround);
-        anim.SetBool("isWall", onWall);
+        //anim.SetBool("isWall", onWall);
+        //anim.SetBool("isGrounded", onGround);
+        anim.SetBool(AnimationStrings.isGrounded, onGround);
+        anim.SetBool(AnimationStrings.isWall, onWall);
 
     }
 
@@ -298,10 +312,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        if(context.started && touchingDirection.IsGrounded && doubleJump == false)
+        if(context.started && touchingDirection.IsGrounded)
         {
             anim.SetTrigger(AnimationStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            dustJump.Play();
             doubleJump = true;
         }else if(context.started && doubleJump== true && !touchingDirection.IsGrounded)
         {

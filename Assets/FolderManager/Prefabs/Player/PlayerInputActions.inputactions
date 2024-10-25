@@ -276,7 +276,7 @@
                 {
                     "name": "",
                     "id": "99522ce7-8531-43cf-a6d5-1a2c52219004",
-                    "path": "<Keyboard>/leftShift",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
@@ -320,7 +320,7 @@
                 {
                     "name": "",
                     "id": "d9ec104f-7413-4768-bfa5-00ab89be214a",
-                    "path": "<Keyboard>/t",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",

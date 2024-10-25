@@ -25,10 +25,7 @@ public class PlayerAttackSword : MonoBehaviour
         {
             floatingHealthbar.TakeDamage(damage);
         }
-        if (collision.CompareTag("GruzMother"))
-        {
-            floatingHealthbar.TakeDamage(damage);
-        }
+       
         if (collision.CompareTag("Enemy"))
         {
             floatingHealthbar.TakeDamage(damage);

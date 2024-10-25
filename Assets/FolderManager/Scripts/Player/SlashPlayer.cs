@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SlashPlayer : MonoBehaviour
 {
-    public float projectileSpeed = 5f;  // Tốc độ chiêu bắn ra
+    public Vector2 projectileSpeed = new Vector2(8f,0);  // Tốc độ chiêu bắn ra
     public float returnTime = 3f;       // Thời gian sau bao lâu chiêu quay lại
     public float returnSpeed = 8f;      // Tốc độ chiêu quay trở lại
     private Transform player;            // Vị trí của nhân vật
@@ -18,13 +18,14 @@ public class SlashPlayer : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform; // Lấy nhân vật qua tag
         StartCoroutine(ReturnAfterTime());
     }
-
+       // rb.velocity = new Vector2(projectileSpeed.x * transform.localScale.x, projectileSpeed.y);
     void Update()
     {
         if (!isReturning)
         {
             // Nếu chưa quay lại, chiêu bắn ra phía trước
-            rb.velocity = transform.right * projectileSpeed;
+            //rb.velocity = transform.right * projectileSpeed;
+            rb.velocity = new Vector2(projectileSpeed.x * transform.localScale.x, projectileSpeed.y);
         }
         else
         {

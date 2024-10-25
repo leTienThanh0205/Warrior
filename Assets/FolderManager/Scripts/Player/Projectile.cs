@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     public int damage;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,14 +29,17 @@ public class Projectile : MonoBehaviour
         FloatingHealthbar enemyHealthbar = collision.GetComponent<FloatingHealthbar>();
         if (collision.CompareTag("Enemy"))
         {
+            Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized;
             enemyHealthbar.TakeDamage(damage);
             anim.SetTrigger(AnimationStrings.arrowExploded);
             rb.constraints = RigidbodyConstraints2D.FreezePositionX;
             rb.constraints = RigidbodyConstraints2D.FreezePositionY;
         }
     }
+
     public void Distances()
     {
         gameObject.SetActive(false);
     }
 }
+

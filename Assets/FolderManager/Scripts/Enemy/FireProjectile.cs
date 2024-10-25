@@ -5,10 +5,12 @@ using UnityEngine;
 public class FireProjectile : EnemyDamage
 {
     [SerializeField] private float speed;
+    //[SerializeField] private Vector2 moveSpeed = new Vector2(8f, 0);
     [SerializeField] private float resetTime;
     private float lifetime;
     private Animator anim;
     private BoxCollider2D coll;
+    private Rigidbody2D rb;
     public int damage = 10;
     private bool hit;
 
@@ -16,6 +18,7 @@ public class FireProjectile : EnemyDamage
     {
         anim = GetComponent<Animator>();
         coll = GetComponent<BoxCollider2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -31,7 +34,7 @@ public class FireProjectile : EnemyDamage
         if (hit) return;
         float movementSpeed = speed * Time.deltaTime;
         transform.Translate(movementSpeed, 0, 0);
-
+        //rb.velocity = new Vector2(moveSpeed.x * transform.localScale.x, moveSpeed.y);
         lifetime += Time.deltaTime;
         if (lifetime > resetTime)
             gameObject.SetActive(false);
