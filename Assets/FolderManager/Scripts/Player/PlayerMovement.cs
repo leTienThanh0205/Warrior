@@ -316,6 +316,7 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetTrigger(AnimationStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Debug.Log("double jump");
             dustJump.Play();
             doubleJump = true;
         }else if(context.started && doubleJump== true && !touchingDirection.IsGrounded)

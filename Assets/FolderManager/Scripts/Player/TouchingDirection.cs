@@ -16,6 +16,7 @@ public class TouchingDirection : MonoBehaviour
     RaycastHit2D[] wallHits = new RaycastHit2D[5];
     RaycastHit2D[] ceilingHits = new RaycastHit2D[5];
     public LayerMask groundMask;
+    public LayerMask oneWayMask;
     [SerializeField]
     private bool _isGrounded;
 
@@ -27,6 +28,22 @@ public class TouchingDirection : MonoBehaviour
         {
             _isGrounded = value;
             animator.SetBool(AnimationStrings.isGrounded,value);
+        }
+    }
+
+    [SerializeField]
+    private bool _isOneWayPlatform;
+
+    public bool IsOneWayPlatform
+    {
+        get
+        {
+            return _isOneWayPlatform;
+        }
+        private set
+        {
+            _isOneWayPlatform = value;
+            animator.SetBool(AnimationStrings.isGrounded, value);
         }
     }
 
@@ -71,9 +88,6 @@ public class TouchingDirection : MonoBehaviour
     private void FixedUpdate()
     {
         IsGrounded = Physics2D.BoxCast(touchingCol.bounds.center, touchingCol.bounds.size, 0f, Vector2.down, groundDistance, groundMask);
-
-       // IsGrounded = touchingCol.Cast(Vector2.down, castFilter, groundHits, groundDistance) > 0;
-      //  IsOnWall = touchingCol.Cast(wallCheckDirection, castFilter, wallHits, wallDistance) > 0;
-        //IsOnCeiling = touchingCol.Cast(Vector2.up, castFilter, ceilingHits, ceilingDistance) > 0;
+        //IsOneWayPlatform = Physics2D.BoxCast(touchingCol.bounds.center, touchingCol.bounds.size, 0f, Vector2.down, groundDistance, oneWayMask);
     }
 }
