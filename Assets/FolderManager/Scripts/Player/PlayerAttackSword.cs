@@ -20,7 +20,7 @@ public class PlayerAttackSword : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         FloatingHealthbar floatingHealthbar = collision.GetComponent<FloatingHealthbar>();
-       // EffectSwordAttack();
+        EffectSwordAttack();
         if (collision.CompareTag("Boss"))
         {
             floatingHealthbar.TakeDamage(damage);
@@ -31,9 +31,9 @@ public class PlayerAttackSword : MonoBehaviour
             floatingHealthbar.TakeDamage(damage);
         }
     }
-    /*private void EffectSwordAttack()
+    private void EffectSwordAttack()
     {
         Instantiate(effect, point.position, Quaternion.identity);
 
-    }*/
+    }
 }
