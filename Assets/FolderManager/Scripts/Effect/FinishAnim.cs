@@ -8,4 +8,8 @@ public class FinishAnim : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    private void StopObject()
+    {
+        gameObject.SetActive(false);
+    }
 }

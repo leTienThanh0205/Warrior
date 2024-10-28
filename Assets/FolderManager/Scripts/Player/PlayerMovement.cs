@@ -47,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("ParticleSystem")]
     public ParticleSystem dustJump;
+    public GameObject dustAfterJumpLeft;
+    public GameObject dustAfterJumpRight;
     private bool walFalling;
     private bool clearInputs;
     private Rigidbody2D rb;
@@ -122,6 +124,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         touchingDirection = GetComponent<TouchingDirection>();
+        dustAfterJumpLeft.SetActive(false);
+        dustAfterJumpRight.SetActive(false);
     }
     private void Update()
     {
@@ -180,7 +184,8 @@ public class PlayerMovement : MonoBehaviour
         }
         if(touchingDirection.IsGrounded && walFalling)
         {
-            dustJump.Play();
+            dustAfterJumpLeft.SetActive(true);
+            dustAfterJumpRight.SetActive(true);
             walFalling = false;
         }
         if(!touchingDirection.IsGrounded && rb.velocity.y < 0)
