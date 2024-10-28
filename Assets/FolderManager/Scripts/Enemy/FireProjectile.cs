@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireProjectile : EnemyDamage
+public class FireProjectile : MonoBehaviour
 {
     [SerializeField] private float speed;
     //[SerializeField] private Vector2 moveSpeed = new Vector2(8f, 0);
@@ -41,13 +41,13 @@ public class FireProjectile : EnemyDamage
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Health health = collision.GetComponent<Health>();
+        HealthPlayer health = collision.GetComponent<HealthPlayer>();
         if (collision.CompareTag("Player"))
         {
             hit = true;
-            base.OnTriggerEnter2D(collision); //Execute logic from parent script first
+           // base.OnTriggerEnter2D(collision); //Execute logic from parent script first
             coll.enabled = false;
-           // health.TakeDamage(damage);
+            health.TakeDamage(damage);
             //anim.SetTrigger("explode");
             if (anim != null)
                 anim.SetTrigger(AnimationStrings.fireExploded); //When the object is a fireball explode it
@@ -57,7 +57,7 @@ public class FireProjectile : EnemyDamage
         if (collision.CompareTag("Ground"))
         {
             hit = true;
-            base.OnTriggerEnter2D(collision); //Execute logic from parent script first
+           // base.OnTriggerEnter2D(collision); //Execute logic from parent script first
             coll.enabled = false;
             if (anim != null)
                 anim.SetTrigger(AnimationStrings.fireExploded); //When the object is a fireball explode it

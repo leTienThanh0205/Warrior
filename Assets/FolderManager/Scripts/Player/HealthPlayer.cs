@@ -9,6 +9,8 @@ public class HealthPlayer : MonoBehaviour
     public float currentHealth;
     Animator anim;
     Rigidbody2D rb;
+    public GameObject effectHealth;
+    public float addHealth;
 
     private void Start()
     {
@@ -16,6 +18,13 @@ public class HealthPlayer : MonoBehaviour
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
 
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H)&&currentHealth < 100)
+        {
+            AddHealth(addHealth);
+        }
     }
     public void TakeDamage(float damage)
     {
@@ -32,5 +41,12 @@ public class HealthPlayer : MonoBehaviour
 
         }
         Debug.Log("Healh: " + currentHealth);
+    }
+    public void AddHealth(float health)
+    {
+        currentHealth += health;
+        Instantiate(effectHealth, transform.position, Quaternion.identity);
+        Debug.Log("AddHealh: " + currentHealth);
+
     }
 }

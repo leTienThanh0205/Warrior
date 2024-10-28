@@ -50,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject dustAfterJumpLeft;
     public GameObject dustAfterJumpRight;
     private bool walFalling;
+    private bool walFalling2;
     private bool clearInputs;
     private Rigidbody2D rb;
     TouchingDirection touchingDirection;
@@ -182,7 +183,7 @@ public class PlayerMovement : MonoBehaviour
 
             rb.AddForce(new Vector2(horizontalJumpForce * direction, jumpForce), ForceMode2D.Impulse);
         }
-        if(touchingDirection.IsGrounded && walFalling)
+        if(touchingDirection.IsGrounded && walFalling && !onWall) 
         {
             dustAfterJumpLeft.SetActive(true);
             dustAfterJumpRight.SetActive(true);
@@ -191,6 +192,15 @@ public class PlayerMovement : MonoBehaviour
         if(!touchingDirection.IsGrounded && rb.velocity.y < 0)
         {
             walFalling = true;
+        }
+        if (onWall && walFalling2)
+        {
+            dustJump.Play();
+            walFalling2 = false;
+        }
+        if (!onWall && rb.velocity.y < 0)
+        {
+            walFalling2 = true;
         }
     }
 
